@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hai", "Halo", "Selamat pagi", "Selamat malam", "Apa kabar?", "Hi!", "Hey there", "Halo bot", "Apa kabar kamu?",
+        "Selamat siang", "Hey", "Pagi!", "Sore!", "Hai, saya mau konsultasi", "Selamat siang", "Selamat sore",
+        "Permisi", "Hai, kamu bisa bantu saya?", "Halo, saya ingin bertanya", "Assalamu'alaikum", "Halo dok", "Hi bot!"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai! Selamat datang, apa yang ingin Anda konsultasikan?",
+        "Halo, senang bertemu dengan Anda! Ada yang ingin ditanyakan?"
+      ]
+    },
+    {
+      "tag": "start_diagnose",
+      "patterns": [
+        "Saya ingin mulai pemeriksaan", "Mari mulai diagnosa", "Mulai konsultasi sekarang", "Saya siap untuk diagnosis",
+        "Ayo mulai cek kesehatan saya", "Bisa mulai diagnosa sekarang?", "Saya ingin mulai analisis",
+        "Mulai sekarang saya ingin konsultasi", "Saya ingin tahu hasil diagnosa", "Mulai proses diagnosa"
+      ],
+      "responses": [
+        "Baik, mari kita mulai pemeriksaan Anda.",
+        "Silakan jawab beberapa pertanyaan berikut untuk diagnosa.",
+        "Saya siap membantu Anda mulai diagnosa, silakan."
+      ]
+    },
+    {
+      "tag": "input_usia",
+      "patterns": [
+        "Umur saya 30", "Saya 45 tahun", "Saya berumur 60", "25 tahun", "Usia saya 50", "Saya lahir tahun 1985",
+        "Saya sudah 40", "Saya 20", "Usiaku 33 tahun", "Sekarang saya 27", "Sekarang umur saya 29",
+        "Saya baru saja 35 tahun", "Tahun ini saya menginjak 42", "Sudah 50 lebih umur saya", "Tanggal lahir saya 1990",
+        "Baru berulang tahun ke-32", "Umur saya sekarang 38", "Tahun ini genap 25 tahun", "Saya berusia 47 tahun",
+        "Di KTP saya 1980"
+      ],
+      "responses": [
+        "Terima kasih, umur Anda sudah saya catat.",
+        "Umur dicatat, kita lanjut ke pertanyaan berikutnya.",
+        "Baik, umur Anda sudah tercatat."
+      ]
+    },
+    {
+      "tag": "input_suhu_tubuh",
+      "patterns": [
+        "Suhu tubuh saya 36.5", "Saya demam 38 derajat", "Tubuh saya panas 37.8", "Saya merasa dingin, suhu 35",
+        "Saya merasa panas, 39 derajat", "Temperatur saya 36", "37 derajat", "Demam tinggi, 40 derajat",
+        "Normal 36.7", "Saya tidak demam, hanya 36.2"
+      ],
+      "responses": [
+        "Suhu tubuh Anda sudah dicatat.",
+        "Terima kasih, informasi suhu tubuh Anda diterima.",
+        "Baik, suhu tubuh Anda tercatat."
+      ]
+    },
+    {
+      "tag": "input_asam_urat",
+      "patterns": [
+        "Asam urat saya 5.5", "Kadar asam urat 7.2", "Hasil tes: 6.8", "Saya punya asam urat 8.0",
+        "Nilai asam urat saya 4.9", "Kadar saya 6.5", "Uric acid saya 7.5", "Saya pernah 6.3",
+        "Angka asam urat 5.0", "Urat saya 6.0", "Saya cek tadi 5.8", "Asam urat normal saya 6.2",
+        "Hasil lab menunjukkan 7.0"
+      ],
+      "responses": [
+        "Kadar asam urat Anda sudah saya catat.",
+        "Terima kasih, informasi asam urat telah diterima.",
+        "Baik, nilai asam urat Anda tercatat."
+      ]
+    },
+    {
+      "tag": "input_kadar_urine",
+      "patterns": [
+        "Kadar urine saya 300", "Urine saya banyak", "Hasil urine saya 250", "Kadar urine normal", "Urine saya rendah",
+        "Saya sering buang air kecil", "Frekuensi urine meningkat", "Saya jarang buang air kecil", "Urine saya sedikit",
+        "Saya minum banyak air, urine banyak", "Tes urine saya menunjukkan 400", "Saya buang air kecil lebih sering",
+        "Volume urine saya banyak banget", "Hasil pemeriksaan urine 280", "Kemarin saya cuma sedikit buang air kecil",
+        "Saya merasa dehidrasi, urine sangat sedikit", "Urine saya banyak sekali sejak pagi", "Hasil tes urin 350",
+        "Saya minum banyak tapi urine sedikit", "Dok, urine saya terlalu sering keluar"
+      ],
+      "responses": [
+        "Informasi kadar urine sudah dicatat.",
+        "Terima kasih, data urine Anda telah diterima.",
+        "Baik, saya sudah mencatat kadar urine Anda."
+      ]
+    },
+    {
+      "tag": "input_warna_urine",
+      "patterns": [
+        "Urine saya kuning", "Warnanya bening", "Sedikit keruh", "Warna agak cokelat", "Kuning pekat", "Sangat jernih",
+        "Keruh banget", "Putih", "Coklat muda", "Saya lihat warnanya agak aneh", "Warna urine saya agak keruh",
+        "Urine saya berwarna kuning muda", "Warnanya seperti teh", "Urine saya agak pekat",
+        "Saya lihat urine saya cukup jernih", "Warnanya agak coklat tua", "Warna urine saya tidak normal",
+        "Urine saya transparan", "Warnanya seperti air keruh", "Saya perhatikan warna urine saya sedikit kemerahan",
+        "Urine saya berwarna gelap hari ini", "Warnanya bening seperti air putih"
+      ],
+      "responses": [
+        "Warna urine Anda sudah saya catat.",
+        "Terima kasih atas informasinya tentang warna urine.",
+        "Baik, warna urine Anda telah dicatat."
+      ]
+    },
+    {
+      "tag": "input_konsumsi_air",
+      "patterns": [
+        "Saya minum 8 gelas sehari", "Saya banyak minum air", "Minum air 2 liter", "Saya jarang minum", "Minum sedikit",
+        "Saya cuma minum 3 gelas", "Minum air sangat cukup", "Saya kurang minum", "Minum banyak sekali hari ini",
+        "Saya minum tiap jam", "Biasanya 6 gelas per hari", "Hari ini 10 gelas", "Saya minum cukup, sekitar 8 gelas",
+        "Rutin 7 gelas sehari", "Kadang hanya 5 gelas", "Suka lupa minum, mungkin 4 gelas"
+      ],
+      "responses": [
+        "Jumlah konsumsi air Anda sudah saya catat.",
+        "Terima kasih, data konsumsi air telah diterima.",
+        "Baik, saya sudah mencatat konsumsi air Anda."
+      ]
+    },
+    {
+      "tag": "closing",
+      "patterns": [
+        "Terima kasih", "Sampai jumpa", "Dadah", "Itu saja", "Terima kasih atas bantuannya", "Selamat tinggal", "Bye",
+        "Udahan dulu", "Cukup sekian", "Terima kasih bot", "Selesai ya", "Oke cukup", "Makasih ya", "Saya sudah selesai",
+        "Sudah cukup untuk hari ini", "Cukup sampai sini", "Terima kasih ya bot", "Saya pamit dulu",
+        "Saya sudah selesai bertanya", "Udahan dulu ya", "Sampai disini dulu", "Terima kasih atas infonya",
+        "Sudah selesai", "Oke, makasih banyak", "Saya keluar dulu"
+      ],
+      "responses": [
+        "Sama-sama, semoga informasi ini membantu!",
+        "Terima kasih sudah konsultasi, semoga sehat selalu.",
+        "Sampai jumpa, jangan ragu untuk kembali bertanya."
+      ]
+    },
+    {
+      "tag": "binary_question",
+      "patterns": [
+        "Apakah Anda merasakan nyeri?", 
+        "Apakah Anda mengalami demam?", 
+        "Apakah Anda pernah operasi sebelumnya?", 
+        "Apakah Anda punya riwayat penyakit jantung?",
+        "Apakah Anda batuk?",
+        "Apakah Anda sesak napas?"
+      ],
+      "responses": [
+        "Silakan jawab dengan Ya atau Tidak.",
+        "Jawab dengan Ya jika Anda mengalaminya, atau Tidak jika tidak.",
+        "Mohon jawab Ya atau Tidak."
+      ]
+    },
+    {
+      "tag": "answer_yes",
+      "patterns": [
+        "Ya", "Iya", "Yup", "Betul", "Benar", "Yes", "Iya benar", "Yess"
+      ],
+      "responses": [
+        "Terima kasih atas konfirmasinya.",
+        "Baik, saya catat jawaban Anda Ya."
+      ]
+    },
+    {
+      "tag": "answer_no",
+      "patterns": [
+        "Tidak", "Enggak", "Gak", "No", "Tidak sama sekali", "Nggak"
+      ],
+      "responses": [
+        "Terima kasih atas konfirmasinya.",
+        "Baik, saya catat jawaban Anda Tidak."
+      ]
+    }
+  ]
+}

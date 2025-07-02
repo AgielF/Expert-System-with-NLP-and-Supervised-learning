@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Halo", "Hai", "Selamat pagi"],
+      "responses": ["Halo, saya di sini untuk membantu diagnosa kesehatan ginjal Anda. Mau mulai?"]
+    },
+    {
+      "tag": "start_diagnose",
+      "patterns": ["Ya", "Mulai", "Saya ingin diagnosa"],
+      "responses": ["Berapa usia Anda?"]
+    },
+    {
+      "tag": "input_usia",
+      "patterns": ["Saya 30 tahun", "Usia saya 45", "20"],
+      "responses": ["Berapa suhu tubuh Anda saat ini?"]
+    },
+    {
+      "tag": "input_suhu_tubuh",
+      "patterns": ["37", "36.5", "38.2"],
+      "responses": ["Berapa tekanan darah Anda?"]
+    },
+    {
+      "tag": "input_tekanan_darah",
+      "patterns": ["120", "130", "110"],
+      "responses": ["Berapa kadar asam urat Anda?"]
+    },
+    {
+      "tag": "input_asam_urat",
+      "patterns": ["5", "7.2", "6.1"],
+      "responses": ["Berapa kadar urine Anda?"]
+    },
+    {
+      "tag": "input_kadar_urine",
+      "patterns": ["300", "400", "200"],
+      "responses": ["Bagaimana warna urine Anda? (jernih, kuning, keruh)"]
+    },
+    {
+      "tag": "input_warna_urine",
+      "patterns": ["kuning", "jernih", "keruh"],
+      "responses": ["Berapa gelas air putih yang Anda konsumsi per hari?"]
+    },
+    {
+      "tag": "input_konsumsi_air",
+      "patterns": ["8", "10", "5"],
+      "responses": ["Apakah Anda mengalami nyeri pinggang? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_nyeri_pinggang",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Apakah Anda sering berkemih? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_sering_berkemih",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Apakah Anda mudah lelah? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_mudah_lelah",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Apakah Anda mengalami mual atau muntah? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_mual_muntah",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Apakah Anda punya riwayat gangguan ginjal? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_riwayat_ginjal",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Apakah Anda punya riwayat hipertensi? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_riwayat_hipertensi",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Apakah Anda punya riwayat diabetes? (Ya/Tidak)"]
+    },
+    {
+      "tag": "input_riwayat_diabetes",
+      "patterns": ["Ya", "Tidak"],
+      "responses": ["Terima kasih, mohon tunggu sebentar, saya akan memproses diagnosa Anda."]
+    }
+  ]
+}

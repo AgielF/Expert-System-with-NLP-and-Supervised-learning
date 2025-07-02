@@ -1,0 +1,43 @@
+[
+  {
+    "name": "greeting",
+    "patterns": ["halo", "hai", "selamat pagi", "apa kabar"],
+    "response": "Halo, saya di sini untuk membantu diagnosa kesehatan ginjal Anda. Mau mulai?",
+    "next": "start_diagnose"
+  },
+  {
+    "name": "start_diagnose",
+    "patterns": ["ya", "iya", "mulai", "oke"],
+    "response": "Baik, mari kita mulai. Berapa usia Anda?",
+    "next": "input_usia"
+  },
+  {
+    "name": "input_usia",
+    "patterns": ["30", "45", "20", "33", "27", "40"],
+    "response": "Berapa suhu tubuh Anda saat ini?",
+    "next": "input_suhu_tubuh"
+  },
+  {
+    "name": "input_suhu_tubuh",
+    "patterns": ["36", "37", "38", "39"],
+    "response": "Apakah Anda merasa nyeri saat buang air kecil?",
+    "next": "input_nyeri_bak"
+  },
+  {
+    "name": "input_nyeri_bak",
+    "patterns": ["ya", "tidak"],
+    "response": "Apakah Anda mengalami bengkak di kaki atau wajah?",
+    "next": "input_bengkak"
+  },
+  {
+    "name": "input_bengkak",
+    "patterns": ["ya", "tidak"],
+    "response": "Terima kasih. Semua data sudah dikumpulkan.",
+    "next": null
+  },
+  {
+    "name": "fallback",
+    "patterns": [],
+    "response": "Maaf, saya tidak mengerti. Bisa coba dengan kata lain?"
+  }
+]

@@ -24,7 +24,7 @@ The project is divided into two main components that run independently but commu
 
 
 1.  **Laravel Expert System:** Handles user authentication, the main web interface, and the core fuzzy logic calculations.
-2.  **Flask AI Service:** A lightweight Python server that wraps the trained NLP model and exposes it through an API endpoint.
+2.  **FAST API AI Service:** A lightweight Python server that wraps the trained NLP model and exposes it through an API endpoint.
 
 ---
 
